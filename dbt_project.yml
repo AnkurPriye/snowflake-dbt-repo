@@ -1,0 +1,3 @@
+name: "dbt_first_project"
+model-paths:
+  - "sql_models"
