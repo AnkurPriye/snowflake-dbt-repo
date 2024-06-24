@@ -1,0 +1,10 @@
+models:
+  - name: "dbt_file_1"
+    config:
+      materialized: "table"
+  - name: "dbt_file_2"
+    config:
+      materialized: "view"
+  - name: "user_dbt_01"
+    config:
+      materialized: "table"
