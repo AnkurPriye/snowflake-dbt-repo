@@ -1,0 +1,25 @@
+sources:
+  - name: "Ankur's source"
+    database: db_ecomm
+    schema: sc_ecomm
+    tables:
+      - name: USERS
+      - name: SCD_EG
+      - name: dim_sales
+      - name: PERSON_SALES
+      - name: PAYMENT_MODES
+
+models:
+  - name: "dbt_file_1"
+    config:
+      materialized: "table"
+  - name: "dbt_file_2"
+    config:
+      materialized: "view"
+  - name: "user_dbt_01"
+    config:
+      materialized: "table"
+  - name: "cust_v4"
+    config:
+      materialized: "ephemeral"
+  
